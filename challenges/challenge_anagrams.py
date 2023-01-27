@@ -23,6 +23,6 @@ def is_anagram(first_string, second_string):
     if len(first_string) == 0 or len(second_string) == 0:
         return (first_word, second_word, False)
     if first_word != second_word:
-        return (first_word, second_word, False) 
+        return (first_word, second_word, False)
     if first_word == second_word:
         return (first_word, second_word, True)
